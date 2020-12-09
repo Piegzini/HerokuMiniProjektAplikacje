@@ -1,6 +1,6 @@
 let express = require("express")
 let app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 let path = require("path")
 let bodyParser = require('body-parser')
 
@@ -277,5 +277,5 @@ app.get('/logout', function (req, res) {
 })
 //włączenie
 app.listen(PORT, function () {
-    console.log("Serwer Działa")
+
 })
