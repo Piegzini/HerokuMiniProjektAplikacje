@@ -61,19 +61,19 @@ app.use(express.static(path.join(__dirname, 'static')))
 
 // Tutaj jest routing 
 app.get("/", function (res, require) {
-    require.sendFile(__dirname + "/Static/html/index.html")
+    require.sendFile(__dirname + "/static/html/index.html")
 })
 
 app.get("/register", function (res, require) {
-    require.sendFile(__dirname + "/Static/html/register.html")
+    require.sendFile(__dirname + "/static/html/register.html")
 })
 
 app.get("/login", function (res, require) {
-    require.sendFile(__dirname + "/Static/html/login.html")
+    require.sendFile(__dirname + "/static/html/login.html")
 })
 
 app.get("/admin", function (res, require) {
-    loged ? require.sendFile(__dirname + "/Static/html/admin.html") : require.sendFile(__dirname + "/Static/html/brak.html")
+    loged ? require.sendFile(__dirname + "/static/html/admin.html") : require.sendFile(__dirname + "/Static/html/brak.html")
 })
 
 
