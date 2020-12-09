@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/mian.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <nav class="c-nav">
+        <a class="c-nav__link"href="/">main</a>
+        <a class="c-nav__link"href="/register">register</a>
+        <a class="c-nav__link"href="/login">login</a>
+        <a class="c-nav__link"href="/admin">admin</a>
+    </nav>
+    <h1 class="c-header">Login Page</h1>
+
+    <form action="/login" method="POST" class="c-form">
+        <div class="c-form__labelBox">
+            <label for="">Login:</label>
+            <label for="">Hasło:</label>
+        </div>
+        <div class="c-form__inputBox">
+            <input name="log"type="text" class="c-header__input">
+            <input name="pass"type="Password" class="c-header__input">
+        </div>
+            
+        </div>
+
+        <button type="submit" class="c-form__submit">Zaloguj się</button>
+    </form>
+</body>
+</html>

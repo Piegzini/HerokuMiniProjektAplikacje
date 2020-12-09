@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/mian.css">
+    <link rel="stylesheet" href="css/register.css">
+    
+</head>
+<body>  
+    <nav class="c-nav">
+        <a class="c-nav__link"href="/">main</a>
+        <a class="c-nav__link"href="/register">register</a>
+        <a class="c-nav__link"href="/login">login</a>
+        <a class="c-nav__link"href="/admin">admin</a>
+    </nav>
+    <h1 class="c-header">Register Page </h1>
+    <form action="/registratrion" method="POST" class="c-form">
+        <div class="c-form__labelBox">
+            <label for="">Login:</label>
+            <label for="">Hasło:</label>
+            <label for="">Wiek:</label>
+            <label for="">Uczeń: </label>
+            <label for="">Płeć: </label>
+        </div>
+        <div class="c-form__inputBox">
+            <input name="log"type="text" class="c-header__input">
+            <input name="pass"type="Password" class="c-header__input">
+            <select name="wiek" id="" class="c-header__input">
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <input type="checkbox" name="uczen" value="checked" id="" class="c-form__checkbox">
+            <div class="c-form__radioBox">
+                <input type="radio" name="plec" value="K" id="" class="c-form__radio"> <p>K</p> 
+                <input type="radio" name="plec" value="M" id="" class="c-form__radio"> <p>M</p>
+            </div>
+            
+        </div>
+
+        <button type="submit" class="c-form__submit">Zarejestruj się</button>
+    </form>
+</body>
+</html>

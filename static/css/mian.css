@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+}
+
+.c-nav
+{
+    width: 90%;
+    padding-left: 10%;
+    height: 50px;
+    background-color: blue;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.c-nav__link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.c-nav__link:hover
+{
+    color: #ccc
+}
+
+.c-header
+{
+    text-align: center;
+    color: #ddd;
+    margin: auto;
+    font-size: 90px;
+    height: 100px;
+    width: 700px;
+    margin-bottom: 30px;
+}
