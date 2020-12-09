@@ -73,7 +73,7 @@ app.get("/login", function (res, require) {
 })
 
 app.get("/admin", function (res, require) {
-    loged ? require.sendFile(__dirname + "/static/html/admin.html") : require.sendFile(__dirname + "/Static/html/brak.html")
+    loged ? require.sendFile(__dirname + "/static/html/admin.html") : require.sendFile(__dirname + "/static/html/brak.html")
 })
 
 
